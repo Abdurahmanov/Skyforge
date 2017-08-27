@@ -1,0 +1,92 @@
+.footer{
+  margin-top: 305px;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  &__wrapper{
+    max-width 1200px
+    margin 0 auto
+    display: flex
+    justify-content: space-between;
+  }
+  &__menu{
+    width 480px
+    display: flex
+    justify-content: space-between
+  }
+  &__title{
+    a{
+      color: rgba(#cacaca,0.8);
+      font-size: 18px;
+      font-family: 'CoreSansLight';
+      transition 0.3s
+      &:hover{
+        color: rgba(#cacaca,0.8);
+        transition 0.3s
+      }
+    }
+  }
+  &__submenu{
+    margin 0
+    padding 0
+    list-style-type none
+    margin-top 20px
+    &-title{
+      margin-bottom 12px
+      &:last-child{
+        margin-bottom 0
+      }
+      a{
+        color: rgba(#cacaca,0.8);
+        font-family: Verdana;
+        font-size: 12px;
+        transition 0.3s
+        &:hover{
+          color: rgba(#cacaca,0.8);
+          transition 0.3s
+        }
+      }
+    }
+  }
+  &__info{
+    width: 450px;
+    &-counts{
+      display flex
+      flex-direction column
+      height 40px
+      justify-content space-between
+    }
+    &-img{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    &-count{
+      width 88px
+      height 18px
+      background url("../img/footer-img-4.png") no-repeat
+      background-size cover
+      &_mail{
+        background-position: 0 -23px;
+      }
+    }
+    &-text{
+      display: flex;
+    }
+    &-prize{
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    &-description{
+      font-family: Verdana;
+      font-size: 12px;
+      font-weight: 400;
+      color: #cacaca;
+      margin-left: 7px;
+    }
+    &-link{
+      color: #0072bc;
+    }
+  }
+}

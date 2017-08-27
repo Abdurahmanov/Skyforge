@@ -1,0 +1,62 @@
+.social{
+  position: relative;
+  &:hover{
+    .social__list{
+      display: flex;
+    }
+    .social__wrapper{
+      background-color: #66806d;
+      transition 0.3s
+    }
+  }
+  &__list{
+    margin: 0;
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    padding:10px 0
+  }
+  &__icon{
+    width: 25px;
+    height: 23px;
+    background url("../img/social-icon.svg") no-repeat
+    background-size cover
+  }
+  &__wrapper{
+    height: 50px;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    cursor pointer
+    background transparent
+    transition 0.3s
+  }
+  &__item{
+    padding 2px 15px
+    cursor: pointer;
+    &:hover{
+      background-color: rgba(#66806d,0.5);
+    }
+  }
+  &__link{
+    width: 30px;
+    height: 30px;
+    background url("../img/social.png") no-repeat
+    background-size cover
+    display: block
+    &_vk{
+      background-position 0 0
+    }
+    &_fb{
+      background-position 0 -34px
+    }
+    &_mm{
+      background-position 0 -68px
+    }
+    &_ok{
+      background-position 0 -102px
+    }
+  }
+}

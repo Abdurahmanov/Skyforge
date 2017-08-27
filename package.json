@@ -1,0 +1,25 @@
+{
+  "name": "Skyforge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "browser-sync": "2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-stylus": "^2.6.0",
+    "run-sequence": "^1.2.2"
+  }
+}
