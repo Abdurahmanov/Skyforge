@@ -125,6 +125,7 @@ footer {
   background: rgba(51,51,51,0.8);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: block;
 }
 .header__logo {
   position: relative;
@@ -578,6 +579,7 @@ footer {
   width: 20px;
   height: 20px;
   background: url("../img/article-social.png") no-repeat;
+  display: block;
 }
 .article__social-link_rss {
   background-position: 0 0;
@@ -884,6 +886,7 @@ footer {
   height: 18px;
   background: url("../img/footer-img-4.png") no-repeat;
   background-size: cover;
+  display: block;
 }
 .footer__info-count_mail {
   background-position: 0 -23px;
